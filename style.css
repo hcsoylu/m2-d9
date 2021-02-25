@@ -1,0 +1,27 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.jumbotron {
+  height: 92vh;
+  background-image: url(./assets/john-mayer-deal-chicao.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-weight: 700 !important;
+}
+
+button.trans {
+  background-color: white !important;
+  color: blue;
+}
+
+.slow-transition:hover {
+  border-color: black;
+  color: black;
+  box-shadow: 0 0.5em 0.5em -0.4em black;
+  transform: translateY(-0.25em);
+  transition: 0.5s;
+}
